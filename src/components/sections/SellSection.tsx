@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { BedDouble, Bath, Square, ArrowRight, Search, Eye, CheckCircle2 } from "lucide-react";
+import { BedDouble, Bath, Square, ArrowRight, Search, Eye, CheckCircle2, MapPin, Building2 } from "lucide-react";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardFooter, CardHeader } from "@/components/ui/card";
@@ -307,6 +307,3 @@ export function SellSection() {
     </section>
   );
 }
-
-// Helper imports since I used them in the JSX but forgot to import some icons at the top
-import { MapPin, Building2 } from "lucide-react";
